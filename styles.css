@@ -1,0 +1,52 @@
+body {
+	background-color: #e06cf0;
+}
+
+header {
+	color: #000000;
+	text-align: center;
+	margin-bottom: -6px;
+	font-size: 10px;
+}
+
+p {
+	color: #ffffff;
+	font-family: cursive;
+}
+
+.page_header h1 {
+	color: #00fbff;
+	text-align: center;
+	margin-top: -6px;
+	margin-bottom: -6px;
+	font-family: Impact;
+	font-size: 50px;
+	font-weight: bold;
+}
+.page_header p {
+	text-align: center;
+	margin-top: -6px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.about {
+	margin-left: 30px;
+}
+.about p {
+	text-indent: 2.0em;
+	margin-left: 20px;
+}
+.about ul{
+	color: #000000;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+
+h2 {
+	color: #00fbff;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 20px
+	font-weight: bold;
+}
