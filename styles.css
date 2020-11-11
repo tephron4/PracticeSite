@@ -1,21 +1,42 @@
 body {
-	background-color: #e06cf0;
+	background-color: #00EEFF;
 }
 
 header {
-	color: #000000;
+	color: #ED3E69;
 	text-align: center;
 	margin-bottom: -6px;
 	font-size: 10px;
 }
 
+nav {
+	background-color: #50F250;
+	overflow: hidden;
+}
+nav ul li {
+	color: #FFFFFF;
+	font-size: 20px;
+	list-style-type: none;
+	display: inline;
+}
+nav ul li a {
+	color: #ED3E69;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+}
+nav ul li a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
 p {
-	color: #ffffff;
+	color: #ED3E69;
 	font-family: cursive;
 }
 
 .page_header h1 {
-	color: #00fbff;
+	color: #ED3E69;
 	text-align: center;
 	margin-top: -6px;
 	margin-bottom: -6px;
@@ -33,20 +54,20 @@ p {
 .about {
 	margin-left: 30px;
 }
-.about p {
-	text-indent: 2.0em;
-	margin-left: 20px;
-}
-.about ul{
-	color: #000000;
-	margin-top: -10px;
-	margin-left: 50px;
-}
-
-h2 {
-	color: #00fbff;
+.about h2 {
+	color: #ED3E69;
 	text-align: left;
 	font-family: sans-serif;
 	font-size: 20px
 	font-weight: bold;
+}
+.about p {
+	text-indent: 2.0em;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+.about ul{
+	color: #8A34E0;
+	margin-top: -10px;
+	margin-left: 50px;
 }
